@@ -270,4 +270,5 @@ class Binomial(Distribution):
         #       with the values replaced by whatever the actual distributions values are
         #       The method should return a string in the expected format
     
-        print("mean %s, standard deviation %s, p %s, n %s".format(self.mean, self.stdev, self.p, self.n))
+        return "mean {}, standard deviation {}, p {}, n {}".format(self.mean, self.stdev, self.p, self.n)
+

@@ -1,7 +1,7 @@
 from setuptools import setup
 
-setup(name='distributions',
-      version='0.1',
-      description='Probability distributions',
-      packages=['distributions'],
+setup(name='probability_dists',
+      version='1.1',
+      description='Probability distributions: Gaussian & Binomial',
+      packages=['probability_dists'],
       zip_safe=False)
